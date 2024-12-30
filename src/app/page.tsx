@@ -1,4 +1,5 @@
 import Blogs from "./components/Blogs";
+import { MovingBorderDemo } from "./components/Demo";
 //  import Grid from "./components/Grid";
 import HeroSection from "./components/HeroSection";
 import { BentoGridSecondDemo } from "./components/ui/bentogrid";
@@ -12,8 +13,8 @@ export default function Home() {
       {/* <h1 className="text-2xl text-center">Portfolio prject</h1> */}
        <HeroSection/>
        <BentoGridSecondDemo/> 
-        
-        
+     
+ 
         
        
        <Blogs/>

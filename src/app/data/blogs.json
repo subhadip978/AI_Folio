@@ -2,9 +2,9 @@
     "blogs": [
       {
         "id": 1,
-        "title": "Guitar Fundamentals",
+        "title": "RAG SYSTEM OVERVIEW",
        
-        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+        "description": "Learn the basics of RAG with beginner level.",
        
         "isFeatured": true,
         "image": "/courses/guitar.jpg" 

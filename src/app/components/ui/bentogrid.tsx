@@ -13,7 +13,7 @@ import Buttongr from "./buttongr";
 
 export function BentoGridSecondDemo() {
   return (
-    <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem]">
+    <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem] p-2">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}
@@ -30,14 +30,14 @@ export function BentoGridSecondDemo() {
   );
 }
  const Skeleton = () => (
-   <div className="rounded-3xl border-2 border-slate-700 p-3">
+   <div className="rounded-3xl border-2 border-slate-700 p-3 flex justify-center items-center">
 
 <span className="flex justify-center items-center space-x-6 space-y-6 flex-wrap">
 {
-  elements.map((element)=>{
+  elements.map((element,index)=>{
     return(
 
-<Buttongr ele= {element.name}/>
+<Buttongr ele= {element.name} key={index}/>
     )
   })
 }
@@ -89,9 +89,9 @@ const items = [
     imgClassName:""
   },
   {
-    title: "Currently building a JS Animation library",
+    title: "Currently building a Multifunctional AI System",
     description:
-      "Understand the impact of effective communication in our lives.",
+      "",
      header: <CodeImg />,
     className: "md:col-span-2",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,image:"",

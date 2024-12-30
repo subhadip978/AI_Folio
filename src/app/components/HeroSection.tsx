@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { Spotlight } from './ui/Spotlight'
-import { Button } from "./ui/moving-border";
+// import { Button } from "./ui/moving-border";
 
 function HeroSection() {
   return (
@@ -23,10 +23,10 @@ function HeroSection() {
 		<div className='mt-4'>
 
 		<Link href="/projects">
-			<Button borderRadius='1.75rem'>
+			<button >
 
 			projects
-			</Button>
+			</button>
 		
 		</Link>
 		</div>
